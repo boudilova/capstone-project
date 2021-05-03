@@ -11,9 +11,9 @@ Some place with no restaurant or less restaurants then in other places but peopl
 
 Using data from Foursquare and data about postal codes of Toronto, i going to find out list of best places to open restaurant.
 
-To find locations i'm going to use set of postal codes of Toronto to split city for regions.
+To find locations I'm going to use set of postal codes of Toronto to split city for regions.
 
-Then using Foursquare data, which contains information about different venues in Toronto, i’m going to find out where restaurants already are.
+Then using Foursquare data, which contains information about different venues in Toronto, I get data about restaurant's locations .
 Then analyze venues categories assign every venue category to venue groups as «restaurant», «food», "entertainment»  and so on.
 
 To find regions where less restaurants we are going to Intersect foursquare data with postal codes of Toronto. This operation will give us information about how many venues of every group are located in every postal code region.
